@@ -153,11 +153,11 @@ export default function Home() {
           <h4 className="text-muted-foreground font-semibold text-md">Developed By <span className="font-bold text-md">John Rave Mimay</span></h4>
           <p className="text-center mt-3 text-muted-foreground text-sm font-semibold">Powered By</p>
           <div className="w-full flex-row justify-center items-center mt-1">
-            <Badge variant={'secondary'} className="p-2 gap-2 items-center">
+            <Badge variant={'none'} className="p-2 gap-2 items-center">
               <RiNextjsLine size={20} />
               <span className="text-sm font-semibold text-muted-foreground">Next.js</span>
               </Badge>
-            <Badge variant={'secondary'} className="p-2 gap-2 items-center">
+            <Badge variant={'none'} className="p-2 gap-2 items-center">
                 <SiShadcnui size={20} /> 
                 <span className="text-sm font-semibold text-muted-foreground">Shadcn UI</span>
               </Badge>
