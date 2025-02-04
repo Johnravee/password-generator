@@ -63,7 +63,7 @@ export default function Home() {
     SetCopied(false);
     const result = handleOption(); 
     let generatedPassword = '';
-    let size = haba
+    const size = haba
     
     for(let i = 0, x = result.length; i < size; i++)
     {
