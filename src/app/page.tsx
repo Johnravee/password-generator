@@ -95,7 +95,7 @@ export default function Home() {
         {/* Generator Section */}
         <section className="w-full lg:w-3/4  border-b-4 border-b-green-400 border-2 flex flex-row p-5 gap-3 animate-fade-down animate-once animate-duration-1000 animate-delay-450">
           <div className="flex-1 overflow-x-auto whitespace-nowrap">
-            <Input type="email" value={password} className="focus-visible:outline-none focus-visible:ring-0 border-none font-bold tracking-wider text-lg" readOnly />
+            <Input type="text" value={password} className="focus-visible:outline-none focus-visible:ring-0 border-none font-bold tracking-wider text-lg" readOnly />
           </div>
           <div className="flex flex-row items-center gap-3">
             <div className="cursor-pointer hover:bg-slate-200 p-1 rounded-sm" onClick={handleGenerate}>
